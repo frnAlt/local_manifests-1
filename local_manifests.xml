@@ -2,7 +2,6 @@
 <manifest>
   <remote name="frnAlt" fetch="https://github.com/frnAlt" clone-depth="1" />
   <remote name="linag" fetch="https://github.com/LineageOS" clone-depth="1" />
-  <remote name="chk-bcr" fetch="https://github.com/Chaitanyakm" clone-depth="1" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="frnAlt" revision="lunaris" />
@@ -15,9 +14,6 @@
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="frnAlt" revision="16.2" />
-
-  <!-- BCR -->
-  <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
 
   <!-- Audio / Dolby / ViPER -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="frnAlt" revision="v4a" />
