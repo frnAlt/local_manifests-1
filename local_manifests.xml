@@ -16,7 +16,7 @@
   <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="frnAlt" revision="16.2" />
 
   <!-- Audio / Dolby / ViPER -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="frnAlt" revision="v4a" />
+  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="frnAlt" revision="v4a" />
   <project path="hardware/dolby" name="hardware_dolby" remote="frnAlt" revision="sony-1.0" />
 
   <!-- Datura Firewall -->
@@ -24,5 +24,4 @@
 
   <!-- Signing Keys -->
   <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="frnAlt" revision="16.2" />
-  <project path="vendor/lunaris-priv/keys" name="vendor_lineage-priv_keys" remote="frnAlt" revision="16.2" />
 </manifest>
