@@ -15,6 +15,11 @@
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="frnAlt" revision="16.2" />
 
+  <!-- MIUI / Leica Camera -->
+  <remote name="gitlab" fetch="https://gitlab.com" clone-depth="1" />
+  <project path="device/xiaomi/camera" name="device_xiaomi_camera" remote="frnAlt" revision="lineage-23.2" />
+  <project path="vendor/xiaomi/camera" name="CuriousNom/vendor_xiaomi_camera" remote="gitlab" revision="lineage-23.2" />
+
   <!-- Audio / Dolby / ViPER -->
   <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="frnAlt" revision="v4a" />
   <project path="hardware/dolby" name="hardware_dolby" remote="frnAlt" revision="sony-1.0" />
